@@ -333,30 +333,52 @@
   margin-left: 30px;
   margin-top: 20px;
 }
-        footer {
-            background-color: #2b7a4b;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
+footer {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
 
-        footer a {
-            color: white;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
+footer {
+    font-size: 18px;
+    margin: 5px 0;
+}
 
-        footer a:hover {
-            color: #ff6f61;
-        }
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer_tag{
+    color: white;
+}
 
-        footer ul {
-            list-style: none;
-            padding: 10px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
+footer .social-icons a:hover {
+    color: red;
+    box-shadow: 0cm;
+}
+footer {
+    background-color: #3a9e67;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffd700;
+}
+
     </style>
 </head>
 <body>
@@ -371,8 +393,12 @@
             </div>
 
             <div class="icons">
-                <img src="./../images/index/logo.jpg" class="icon icon-img">
-                <img src="./../images/index/logo.jpg" class="icon icon-img">
+                <a href="./pages/login.html">
+                    <img src="./../icons/user.png" class="icon icon-img">
+                </a>
+                <a href="./pages/cart.html">
+                    <img src="./../icons/cart.png" class="icon icon-img">
+                </a>
             </div>
 
             <input type="checkbox" class="menu-toggle" id="menu-toggle">
@@ -383,16 +409,16 @@
             </label>
 
             <ul class="navbar-nav">
-                <li><a href="./pages/plants.html">Plants</a>
+                <li><a href="./plants.html">Plants</a>
                     <div class="dropdown">
-                        <a href="#">Indoor Plants</a>
-                        <a href="#">Pet Friendly Plants</a>
-                        <a href="#">Flowering Plants</a>
-                        <a href="#">Fruit Plants</a>
-                        <a href="#">Medicinal Plants</a>
+                        <a href="./indoor.html">Indoor Plants</a>
+                        <a href="./plantcare.html">Pet Friendly Plants</a>
+                        <a href="./flower.html">Flowering Plants</a>
+                        <a href="./fruit.html">Fruit Plants</a>
+                        <a href="./medicinal.html">Medicinal Plants</a>
                     </div>
                 </li>
-                <li><a href="./pages/seeds.html">Seeds</a>
+                <li><a href="./seeds.html">Seeds</a>
                     <div class="dropdown">
                         <a href="#">Flower Seeds</a>
                         <a href="#">Vegetable Seeds</a>
@@ -401,7 +427,7 @@
                         <a href="#">Herbs Seeds</a>
                     </div>
                 </li>
-                <li><a href="./pages/pots_n_planters.html">Pots & Planters</a>
+                <li><a href="./pots_n_planters.html">Pots & Planters</a>
                     <div class="dropdown">
                         <a href="#">Plastic Pots</a>
                         <a href="#">Ceramic Pots</a>
@@ -411,7 +437,7 @@
                         <a href="#">Seedling Trays</a>
                     </div>
                 </li>
-                <li><a href="./pages/plantcare.html">Plant Care</a>
+                <li><a href="./plantcare.html">Plant Care</a>
                     <div class="dropdown">
                         <a href="#">Potting Mix</a>
                         <a href="#">Cocopeat</a>
@@ -420,17 +446,16 @@
                         <a href="#">Gardening Tools</a>
                     </div>
                 </li>
-                <li><a href="./pages/gifts.html">Gifts</a></li>
-                <li><a href="./pages/blogs.html">Blogs</a></li>
-                <li><a href="./pages/about.html">About Us</a></li>
-                <li><a href="./pages/contact.html">Contact Us</a></li>
+                <li><a href="./gifts.html">Gifts</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </div>
     </header>
 
-   <img src="./../images/contact-img/contact-us.png" alt="contact-us-img" height="300px" width="100%" >
-    
-     <center> <h1> CONTACT US 👇</h1></center>
+   <img src="./../images/contact-img/Screenshot (140).png" alt="contact-us-img" height="300px" width="100%" >
+     <br>
      <br> 
   <div class="enquiry-container">
     <div class="typeset-container">
@@ -506,8 +531,12 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30154.34103788736!2d72.80480730823189!3d19.138663853019814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b618b6d891dd%3A0x91f8a857c731d132!2sAndheri%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1735298586308!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
 
 <footer>
-    <p>&copy; 2024 NatureNest. All Rights Reserved.</p>
-    <p>Follow Us: <a href="https://www.facebook.com/"><img src="./../images/contact-img/facebook.png" alt="Facebook" height="30px" width="30px"></a> ___ <a href="https://x.com/i/flow/login?lang=en"> <img src="./../images/contact-img/twitter.png" alt="Twitter" height="30px" width="30px"> </a> ___ <a href="https://www.instagram.com/"> <img src="./../images/contact-img/instagram.png" alt="Twitter" height="37px" width="37px"> </a></p>
+    <h3 class="footer_tag">Connect with us</h3>
+    <div class="social-icons">
+        <a href="https://twitter.com" target="_blank" class="fab fa-twitter" title="Twitter"></a>
+        <a href="https://instagram.com" target="_blank" class="fab fa-instagram" title="Instagram"></a>
+        <a href="https://wa.me/+918010333840" target="_blank" class="fab fa-whatsapp" title="WhatsApp"></a>
+    </div>
 </footer>
 
 </body>
